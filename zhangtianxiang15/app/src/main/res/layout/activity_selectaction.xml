@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/button_radius_maincolor"
+            android:text="添加学生"
+            android:textColor="#000"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/bt_remove"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+
+            android:background="@drawable/button_radius_maincolor"
+            android:text="移除学生"
+            android:textColor="#000"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/bt_alter"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_radius_maincolor"
+            android:text="修改成绩"
+            android:textColor="#000"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/bt_display"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_radius_maincolor"
+            android:text="成绩报告"
+            android:textColor="#000"
+            android:textSize="26dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
