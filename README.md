@@ -1,0 +1,3 @@
+# androidsqlite
+Android基于Sqlite的学生信息管理系统
+release
